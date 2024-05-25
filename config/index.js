@@ -26,9 +26,9 @@ module.exports = {
         reconnectIntervalMs: process.env.RPP_RECONNECT_INTERVAL || 15000,
     },
     discord: {
-        username: process.env.RPP_DISCORD_USERNAME || 'rustplusplus',
-        clientId: process.env.RPP_DISCORD_CLIENT_ID || '',
-        token: process.env.RPP_DISCORD_TOKEN || '',
+        username: process.env.RPP_DISCORD_USERNAME || 'WD-Plus',
+        clientId: process.env.RPP_DISCORD_CLIENT_ID || '1243798995097227305',
+        token: process.env.RPP_DISCORD_TOKEN || 'MTI0Mzc5ODk5NTA5NzIyNzMwNQ.G5SBiL.BBcCvyAgkRjsGH259RDOzOax7nohXMLXwGRWJ0',
         needAdminPrivileges: process.env.RPP_NEED_ADMIN_PRIVILEGES || true, /* If true, only admins can delete (server, switch..), manage credentials and reset a channel */
     }
 };
